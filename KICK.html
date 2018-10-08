@@ -1,0 +1,82 @@
+ <!doctype html>
+<html>
+	<head>	
+		<link href="css/new.css" rel="stylesheet" type="text/css">
+			<title>
+				KICKSTARTER
+			</title>
+	</head>
+		<body background-image="img/FB.png" id ="img" alt =" FACEBOOK IMAGE" height="800" width="1400">
+		
+			<div id="header">
+			>>>>>DA-SAM TechTRONS<<<<<
+			</div>
+				<p>
+					<div id ="box">
+						Have an account?&nbsp <strong id="LI"><a href="#">Log in</a></strong><br><br>
+						<form id="one" name="game"  onsubmit="JSfunction()">
+							<br>
+							<label class="sign up" id="pass" for = "name">Sign Up</label>
+							<p>
+							<br>
+							<input  type="text" class="password" placeholder="Name" name="name" >
+							<p>
+							<br>
+							<input type="text" class="password" placeholder="Email" name="Email">
+							<p>	
+							<br>
+							<input type="text" class="password" placeholder="Re-Enter Email" name="email1">
+							<p>
+							<br>
+							<input type="password" class="password" placeholder="Password" name="pass">
+							<p>
+							<br>
+							<input type="password" class="password" placeholder="Re-Enter Password" name="pass1">
+							<p>
+							<br>
+							<p>
+							<input type="checkbox" name="check" >	
+							<label id="check" >Receieve our weekly newsletter and other occasional updates</label>
+							<p>
+							<br>
+							<button id="but"  >CREATE ACCOUNT</button>
+							<p>
+							<br>
+							<h5 id="last">By <u>signing up</u> you agree to the <u>terms and conditions</u> of kickstarter.</h5>
+						</form>
+					</div>
+						<script>
+							function JSfunction()
+								{	
+									var name =document.game.name.value;
+									var pass=document.game.pass.value;
+									var pass1=document.game.pass1.value;
+									var Email=document.game.Email.value;
+									var email1=document.game.email1.value;
+									var check=document.game.check.checked;
+									if (name==""||pass==""||pass1==""||Email==""||email1=="")
+										{
+											alert(" EMPTY TEXT FIELDS!!!");
+										}
+			
+									else if(pass!=pass1)
+										{
+											alert("Your password doesn't match!!!");
+										}
+									else if(Email!=email1)
+										{
+											alert("Your email doesn't match!!!");
+										}
+									else if(pass.length<6)
+										{
+											alert("Password must be atlaest 6 characters!!");
+										}
+									else if(check==false)
+										{
+											alert("Please agree to terms and condition!!");
+										}
+					
+								}
+						</script>
+		</body>
+</html>

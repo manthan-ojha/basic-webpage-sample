@@ -1,0 +1,89 @@
+*{
+	margin:0;
+}
+#header{
+	text-align:center;
+	font-family:'Helvetica';
+	    border-bottom: 1px solid #000;
+    background-color: darkcyan;
+	color:white;
+width:100%;
+	border-bottom-color: black;
+	    border-bottom-width: medium;
+	    font-family: cursive;
+		    font-size: 40px;
+			padding-top:30px;
+			height:60px;
+			margin-top:-30px;
+			    font-weight: bolder;
+	}
+body{
+	background-color:azure;
+}
+#box{
+	width:400px;
+	border-radius:5px;
+	background-color:beige;
+	left:50%;
+	position:absolute;
+	margin-left:-199px;
+	margin-top:50px;
+	padding:3px;
+	text-align:center;
+	height:42px;
+	font-size:20px;
+	border-bottom:1px solid black;
+}
+#LI{
+	color:blue;
+}
+#pass{
+		margin-top:99px;
+	    font-family: sans-serif;
+    margin-left: -280px;
+        font-size: 30px;
+    background-color: #fff;
+}
+#one{
+	margin-bottom: 30px;
+height:550px;
+	 background-color: #fff;
+}
+u{
+	color:blue;
+}
+#pass{
+	    font-family: sans-serif;
+        font-size: 30px;
+    background-color: white;
+}
+.password{
+	border-radius:5px;
+	    height: 30px;
+		
+
+    width: 350px;
+}
+#check{
+	
+		font-size:15px;
+		
+	    
+}
+#but{
+	    width: 360px;
+    height: 40px;
+    background-color: green;
+color: white;
+cursor:pointer;
+}
+#but:hover{
+	background-color:red;
+}
+#last{
+	    font-family: inherit;
+    text-align: initial;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
